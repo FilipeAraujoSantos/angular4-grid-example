@@ -1,0 +1,11 @@
+<div class="alert alert-success" role="alert" *ngIf="msgSucesso"> Registro salvo com sucesso! </div>
+<div class="alert alert-danger" role="alert" *ngIf="msgFalha"> Ocorreu uma falha ao tentar salvar o registro. Tente novamente.</div>
+
+<listagem [titulo]="titulo" 
+          [data]="data" 
+          [colunasTitulo]="colunas" 
+          [totalResultados]="totalResultados"
+          [atributosIgnorados]='["token","teste"]'
+          (doEdicao)="editarRegistro($event)"
+          (doExclusao)="excluirRegistro($event)">
+</listagem>

@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="account-wall">
+                <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="Foto">
+                <form [formGroup]="meuForm" (submit)="validarLogin($event)" class="form-signin">
+
+                    <div class="form-group" [ngClass]="{'has-error': meuForm.controls['email'].invalid, 'has-success': meuForm.controls['email'].valid}">
+                        <input name="email" formControlName="email" [(ngModel)]="email" type="email" class="form-control " placeholder="Login" required autofocus>
+                        <div *ngIf="!meuForm.controls['email'].valid">
+                            <p ng-show="!meuForm.controls['email'].valid" class="help-block">Login obrigatório</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group" [ngClass]="{'has-error': meuForm.controls['password'].invalid, 'has-success': meuForm.controls['password'].valid}">
+                        <input name="password" formControlName="password" [(ngModel)]="password" type="password" class="form-control" placeholder="Senha" required >
+                        <div *ngIf="!meuForm.controls.password.valid" ng-class="{ 'has-error' : !meuForm.password.valid}">
+                            <p ng-show="!meuForm.password.valid" class="help-block">Senha obrigatória</p>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" [disabled]="!meuForm.valid">
+                        Acessar
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
