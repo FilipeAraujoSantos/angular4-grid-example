@@ -1,5 +1,5 @@
 # angular4-grid-example
-Componente **Listagem** (*listagem.component.ts*) simula o [a link] (https://datatables.net) DataTables.js
+Componente **Listagem** (*listagem.component.ts*) que simula o plug-in **DataTables.js** (https://datatables.net)
 
 
 Utilizei 2 componentes externos nesse projeto:
