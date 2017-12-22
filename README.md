@@ -11,9 +11,10 @@ O guardião (*autenticacao.guard.ts*) e o componente (*login.component.ts*) pode
 
 PS: É necessário tambem remover a indicação de provedor do "AutenticacaoGuard" no arquivo **app.module.ts**.
 ```javascript
+ ...
  prodivers: [
   AutenticacaoGuard
  ]
-}
+ ...
 ```
 
