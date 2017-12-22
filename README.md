@@ -9,7 +9,7 @@ Utilizei 2 componentes externos nesse projeto:
       
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-###Exemplo de Utilização
+### Exemplo de Utilização
 
 ```
 <listagem [titulo]="titulo"  
@@ -21,7 +21,7 @@ Utilizei 2 componentes externos nesse projeto:
           (doExclusao)="excluirRegistro($event)">
 </listagem>
 ```
-###Documentação do Componente
+### Documentação do Componente
 
 * [titulo]: Parametro de texto que representa o título que será exibido na camada de visão.
 * [data]: Objeto JSON que será responsável por popular as celulas da tabela "<td>".
@@ -33,7 +33,7 @@ Utilizei 2 componentes externos nesse projeto:
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-###ATENÇÃO 
+### ATENÇÃO 
 Todas as requisições realizadas dentro do projeto estão passando por uma guarda de segurança. O guardião (*autenticacao.guard.ts*) e o componente (*login.component.ts*) podem ser ignorados. Para isso, basta remover os parametros *canActive* e *canLoad* das rotas no **arquivo app.router.ts**. 
 
 PS: É necessário tambem remover a indicação de provedor do "AutenticacaoGuard" no arquivo **app.module.ts**.
