@@ -3,9 +3,9 @@ Componente **Listagem** (*listagem.component.ts*) que simula o plug-in **DataTab
 
 
 Utilizei 2 componentes externos nesse projeto:
-  * O primeiro deles (menu-responsivo.componenet.ts) é referente a responsividade no menu. Maiores detalhes podem ser encontrados no link abaixo
+  * O primeiro deles (*menu-responsivo.componenet.ts*) é referente a responsividade no menu. Maiores detalhes podem ser encontrados no link abaixo
       * https://medium.com/@ct7/the-simple-way-to-make-a-mobile-angular-2-bootstrap-navbar-without-jquery-d6b3f67b037b
-  * O segundo (paginacao.component.ts) é a paginação do grid. Maiores detalhes podem ser encontrado aqui:
+  * O segundo (*paginacao.component.ts*) é a paginação do grid. Maiores detalhes podem ser encontrado aqui:
       * http://www.bentedder.com/create-a-pagination-component-in-angular-4/
       
 ----------------------------------------------------------------------------------------------------------------------------------------
