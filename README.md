@@ -1,5 +1,6 @@
 # angular4-grid-example
-Componente **Listagem** (*listagem.component.ts*) simula o DataTables.js
+Componente **Listagem** (*listagem.component.ts*) simula o [a link] (https://datatables.net) DataTables.js
+
 
 Utilizei 2 componentes externos nesse projeto:
   * O primeiro deles (menu-responsivo.componenet.ts) é referente a responsividade no menu. Maiores detalhes podem ser encontrados no link abaixo
